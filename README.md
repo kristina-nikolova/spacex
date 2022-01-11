@@ -1,16 +1,32 @@
 # spacex
 
+### Summary
+
 SpaceX app allows you to see next, upcoming and lates launches and to favourite them, all the available vehicles, launchpads and company information. The app is build in Flutter
 
-## Getting Started
+### Getting Started
 
-This project is a starting point for a Flutter application.
+To run the spaceX app use the command 
 
-A few resources to get you started if this is your first Flutter project:
+$ flutter run 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+or run it via VS Code using the command Run Without Debugging from the top toolbar
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### API
+
+For the purposes of this project SpaceX-Api is used -> https://github.com/r-spacex/SpaceX-API
+
+### Client
+
+Flutter 2.8.1
+### Features
+
+- Showing a counter counting the hours remaining to the next launch
+- Launchpad details and map for the next launch
+- List of all available vehicle and thei details
+- Option to add vehicle to Favorites and showing the list of favorites
+- List of all upcomming launches with details 
+- List of all latest launches with details and videos
+- Option to filter launches
+- Company information with clickable links
+- Option to swith between light and dark theme
