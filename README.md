@@ -8,9 +8,9 @@ SpaceX app allows you to see next, upcoming and lates launches and to favourite 
 
 To run the spaceX app use the command 
 
-$ flutter run 
+`flutter run`
 
-or run it via VS Code using the command Run Without Debugging from the top toolbar
+or run it via VS Code using the command **Run Without Debugging** from the top toolbar
 
 ### API
 
@@ -19,6 +19,7 @@ For the purposes of this project SpaceX-Api is used -> https://github.com/r-spac
 ### Client
 
 Flutter 2.8.1
+
 ### Features
 
 - Showing a counter counting the hours remaining to the next launch
